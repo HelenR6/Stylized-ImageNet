@@ -13,8 +13,8 @@ from os.path import join as pjoin
 ###########################################################
 
 # TODO Dear user, please change these paths:
-IMAGENET_PATH = "/gpfs01/bethge/data/imagenet-raw/raw-data/" # TODO specify ImageNet path
-STYLIZED_IMAGENET_PATH = "/gpfs01/bethge/data/imagenet-styletransfer-v2/" # TODO specify target path: where should Stylized-ImageNet be stored?
+IMAGENET_PATH = "/content/gdrive/MyDrive/imagenet"
+STYLIZED_IMAGENET_PATH = "/content/gdrive/MyDrive/Stylized-ImageNet" # TODO specify target path: where should Stylized-ImageNet be stored?
 
 
 ###########################################################
@@ -22,7 +22,7 @@ STYLIZED_IMAGENET_PATH = "/gpfs01/bethge/data/imagenet-styletransfer-v2/" # TODO
 ###########################################################
 
 IMG_SIZE = 224
-ADAIN_RAW_PAINTINGS_DIR = "./paintings_raw/"
+ADAIN_RAW_PAINTINGS_DIR = "/content/gdrive/MyDrive/paintings_raw/"
 ADAIN_EXCLUDED_PAINTINGS_DIR = "./paintings_excluded/"
 ADAIN_PREPROCESSED_PAINTINGS_DIR = "./paintings_preprocessed/"
 
